@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
-# Lista temporária (em vez de banco de dados)
+# Lista temporária (em vez de SQLite)
 tasks = []
 
 
