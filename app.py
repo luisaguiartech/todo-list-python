@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect
-import os  # <-- Importe o módulo os
+import os  # <-- Importe o módulo os (muito importante!)
 
 app = Flask(__name__)
 
